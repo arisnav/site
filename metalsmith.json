@@ -1,0 +1,20 @@
+{
+  "plugins": {
+    "metalsmith-markdown": {
+
+    },
+    "metalsmith-express": {
+
+    },
+    "metalsmith-watch": {
+      "livereload": true,
+      "paths": {
+        "${source}/**/*": true,
+        "layouts/**/*": "**/*"
+      }
+    },
+    "metalsmith-layouts": {
+      "engine": "handlebars"
+    }
+  }
+}
