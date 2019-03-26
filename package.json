@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "open http://localhost:3000 && metalsmith",
+    "start": "open http://localhost:3000 && metalsmith --config metalsmith-serve.json",
     "build": "metalsmith"
   },
   "author": "Ari Navetta",
