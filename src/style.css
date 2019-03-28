@@ -3,7 +3,7 @@
 body {
   overflow-x: hidden;
   margin: 0;
-  background-color: #DAFBFE;
+  /* background-color: #DAFBFE; */
 }
 a, a:visited {
   text-decoration: none;
@@ -109,7 +109,8 @@ header h1:before, header h1:after {
 }
 
 .content {
-  margin: 60% 15% 0% 15%;
+  margin: 60% 75% 0% 0%;
+  text-align: left;
   line-height: 1.75em;
   text-indent: 2%;
 }
@@ -124,7 +125,6 @@ header h1:before, header h1:after {
 .content-heading {
   padding-bottom: 0.25%;
   line-height: 1em;
-  text-indent: 0.5%;
   font-family: 'Playfair Display', serif;
   font-size: 32pt;
   font-weight: normal;
@@ -137,10 +137,10 @@ header h1:before, header h1:after {
   border: 1px solid #3ea5c2;
 }
 
-.content:after {
+/* .content:after {
   content: "";
   display: block;
-}
+} */
 footer, .content:after {
   height: 4%;
 }
