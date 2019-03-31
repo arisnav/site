@@ -1,6 +1,7 @@
 ---
-layout: home-layout.html
-home-url: index.html
+layout: essay.html
+title: Macbeth
+description: Ari Navetta | Macbeth
 heading-one: Where Society Falsely Trusts
 ---
 Since people are uncomfortable with having gaps in their knowledge, we rely on others who are more experienced to make judgements which we then adopt into our own beliefs. This practice is the foundation of how reputations are formed. While this is understandable, it blinds people from taking the time to know something truly, instead causing them to base the way they treat each other on an “idle and most false imposition, oft got without merit and lost without deserving,” as Shakespeare describes reputation in Othello (2.3.257-259). Reputations must be meticulously upheld and can be ruined by one mistake, and this pressure often causes people to take actions outside their true nature. No single characterization can sum up an entire human being accurately, therefore the incredible importance with which we value reputation is misplaced.
