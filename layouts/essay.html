@@ -6,6 +6,7 @@
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}">
     <link rel="stylesheet" href="essay-style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
 
 
@@ -13,46 +14,53 @@
 
     <div class="menu">
       <ul>
-        <a href="https://arinavetta.com"><li>Home</li></a>
-        <li>About</li>
-        <li>Essays</li>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="Macbeth.html"><li>Essays</li></a>
+        <li>Photography</li>
+        <li>Illustrator</li>
       </ul>
     </div>
 
 
-    <div class="back-to-top"></div>
+    <div class="up"></div>
 
     <div class="centered" id="content-wrap">
       <div class="content">
 
         <h1 class="content-heading">{{ heading-one }}</h1>
           <div class="content-text-main">{{{ contents }}}</div>
+
           <div class="works-cited">
-            <h1>Works Cited</h1>
-            <ul>
-              <li>Source</li>
-              <li>Source</li>
-              <li>Source</li>
-            </ul>
-          </div>
+            <h1 class="centered">Works Cited</h1>
+            <div class="source">
+              <p>Shakespeare, William. <i>The Tragedy of Macbeth.</i> Barbara A. Mowat and Paul Werstine. New York: Simon & Schuster Paperbacks, 2003.</p>
+              <p>Print. Shakespeare.</p>
+            </div>
+            <div class="source">
+              <p>Shakespeare, William. <i>The Tragedy of Othello: The Moor of Venice.</i> Ed. Tucker Brooke and Lawrence Mason. New Haven: Yale UP, </p>
+              <p>1947. Print.</p>
+            </div>
       </div>
+
     </div>
 
-    <footer>
+    <!-- <footer>
       <ul>
-        <li><a href="{{ index.html }}">home</a></li>
+        <li><a href="https://ari.navetta.com">home</a></li>
         <li>about</li>
         <li>contact</li>
         <li id="back-to-top">top of page</li>
       </ul>
       <p>Generated with <a href="https://metalsmith.io">Metalsmith</a></p>
-    </footer>
+    </footer> -->
 
   </body>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="jsEssay.js"></script>
+  <script src="js.js"></script>
 
 
 </html>

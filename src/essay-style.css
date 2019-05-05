@@ -1,104 +1,23 @@
-@import 'https://fonts.googleapis.com/css?family=Catamaran|Playfair+Display|Sorts+Mill+Goudy|Vesper+Libre|Vollkorn';
-
-body {
-  overflow-x: hidden;
-  margin: 0;
-  background-color: #F9FAF9;
-}
-a, a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-.centered {
-  display: flex;
-  justify-content: center;
-}
-
-body::-webkit-scrollbar {
-  width: 0.75%;
-}
-body::-webkit-scrollbar-track {
-  background-color: #F9FAF9;
-}
-body::-webkit-scrollbar-thumb {
-  background-color: #68BBD2;
-}
-
-
-.menu {
-  position: fixed;
-  height: 7%;
-  width: 100%;
-  background-color: #699b69;
-}
-.menu ul li {
-  display: inline;
-  text-decoration: none;
-  margin-right: 2%;
-  color: #F9FAF9;
-  font-family: 'Catamaran', sans-serif;
-}
-
-
-.back-to-top {
-  display: none;
-  position: fixed;
-  bottom: 10%;
-  right: 4%;
-  width: 20px;
-  height: 20px;
-  border-left: 2px solid #195319;
-	border-bottom: 2px solid #195319;
-	transform: rotate(135deg);
-}
-
-
 .content {
-  margin-top: 5%;
-  width: 80%;
-  text-align: left;
-  line-height: 1.75em;
-  text-indent: 2%;
+  margin-top: 8%;
 }
-.content-text-main {
+
+.works-cited {
+  line-height: 2em;
+  margin-top: 5%;
+}
+.works-cited h1 {
+  font-family: 'Playfair Display';
+  font-size: 14pt;
+  font-weight: normal;
+  color: #104B80;
+}
+.source p {
+  text-indent: 2em;
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 14pt;
   color: #104B80;
 }
-.content-text-main::first-letter {
-  font-size: 36pt;
-}
-.content-heading {
-  padding-bottom: 0.25%;
-  line-height: 1em;
-  font-family: 'Playfair Display', serif;
-  font-size: 32pt;
-  font-weight: normal;
-  color: #3E73A3;
-}
-.content-heading::after {
-  content: " ";
-  display: block;
-  margin-bottom: 15px;
-  border: 1px solid #3ea5c2;
-}
-
-
-footer {
-  height: 7%;
-  background-color: #699b69;
-}
-footer p {
-  width: 30%;
-  font-family: 'Vesper Libre', serif;
-}
-footer ul {
-  /* float: right; */
-  margin-left: 50%;
-  width: 70%;
-}
-footer li {
-  display: inline;
-  margin-right: 2%;
-  font-family: 'Vesper Libre', serif;
+.source p:first-of-type {
+  text-indent: 0;
 }
