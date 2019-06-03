@@ -1,7 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Catamaran|Playfair+Display|Sorts+Mill+Goudy|Vesper+Libre|Vollkorn';
 
 body {
-  overflow-x: hidden;
   margin: 0;
   background-color: #F9FAF9;
 }
@@ -44,7 +43,7 @@ body::-webkit-scrollbar-thumb {
 .up {
   display: none;
   position: fixed;
-  bottom: 10%;
+  bottom: 5%;
   right: 4%;
   width: 20px;
   height: 20px;

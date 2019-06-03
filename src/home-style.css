@@ -1,3 +1,7 @@
+body: {
+  overflow-x: hidden;
+}
+
 .feature {
   position: absolute;
   height: 100%;
@@ -58,8 +62,8 @@
 .down {
   position: absolute;
   bottom: 15%;
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	border-left: 2px solid #195319;
 	border-bottom: 2px solid #195319;
 	transform: rotate(-45deg);
