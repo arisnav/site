@@ -1,0 +1,29 @@
+.content {
+  margin-top: 5%;
+}
+
+.essay {
+  padding-bottom: 5%;
+}
+.essay h1 {
+  font-family: 'Sorts Mill Goudy';
+  font-size: 24pt;
+}
+.essay p {
+  font-family: 'Catamran';
+  font-size: 14pt;
+}
+.essay ul {
+  font-family: 'Catamaran';
+  font-size: 14pt;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.essay ul li {
+  display: inline;
+}
+
+footer {
+  bottom: -10%;
+}
