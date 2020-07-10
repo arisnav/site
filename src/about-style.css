@@ -1,3 +1,15 @@
-footer {
-  bottom: -10%;
+#column1 {
+  float: left;
+  width: 40%;
+}
+#column2 {
+  float: left;
+  margin-left: 5%;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

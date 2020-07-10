@@ -8,6 +8,10 @@ a, a:visited {
   text-decoration: none;
   color: inherit;
 }
+a[href^="https://"], a[href^="https://"]:visited, a[href$=".pdf"], a[href$=".pdf"]:visited {
+  text-decoration: none;
+  color: #3E73A3;
+}
 .centered {
   display: flex;
   justify-content: center;
@@ -53,34 +57,38 @@ body::-webkit-scrollbar-thumb {
   z-index: 2;
 }
 
+.column {
+  float: left;
+  width: 45%;
+  margin-top: 5%;
+}
+.column:nth-of-type(2n) {
+  margin-left: 5%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 
 .content {
-  width: 80%;
   line-height: 1.75em;
-  text-indent: 2%;
-  padding-top: 4%;
+  padding: 4% 0 0 4%;
 }
 .content-text-main {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Catamaran', serif;
   font-size: 14pt;
-  color: #104B80;
-}
-.content-text-main::first-letter {
-  font-size: 36pt;
+  color: #293629;
+  margin-top: -1em;
 }
 .content-heading {
-  padding-bottom: 0.25%;
   line-height: 1em;
-  font-family: 'Playfair Display', serif;
-  font-size: 32pt;
+  font-family: 'Vollkorn', serif;
+  font-size: 45pt;
   font-weight: normal;
   color: #3E73A3;
-}
-.content-heading::after {
-  content: " ";
-  display: block;
-  margin-bottom: 15px;
-  border: 1px solid #3ea5c2;
 }
 
 
@@ -88,14 +96,11 @@ footer {
   height: 10%;
   width: 100%;
   background-color: #699b69;
-  position: absolute;
-}
-footer ul {
-  text-align: center;
-  line-height: 250%;
+  line-height: 3.5em;
 }
 footer ul li {
   display: inline;
   margin-right: 2%;
-  font-family: 'Vesper Libre', serif;
+  color: #F9FAF9;
+  font-family: 'Catamaran', sans-serif;
 }

@@ -3,27 +3,22 @@
 }
 
 .essay {
-  padding-bottom: 5%;
+  margin: 3% 0 0 3%;
 }
 .essay h1 {
-  font-family: 'Sorts Mill Goudy';
-  font-size: 24pt;
-}
-.essay p {
-  font-family: 'Catamran';
-  font-size: 14pt;
-}
-.essay ul {
   font-family: 'Catamaran';
-  font-size: 14pt;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
+  font-size: 18pt;
+  font-weight: 400;
 }
-.essay ul li {
-  display: inline;
+.essay:nth-of-type(2) {
+  margin-left: 8%;
 }
-
-footer {
-  bottom: -10%;
+.essay:nth-of-type(3) {
+  margin-left: 16%;
+}
+.essay:nth-of-type(4) {
+  margin-left: 24%;
+}
+.essay:nth-of-type(5) {
+  margin-left: 32%;
 }

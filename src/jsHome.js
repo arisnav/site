@@ -1,7 +1,7 @@
 $('#down').click(function() {
   var menuHeight = $('.menu').height();
   $('html, body').animate({
-      scrollTop: $('#essay').offset().top - menuHeight
+      scrollTop: $('#about').offset().top - menuHeight
   }, 750);
 });
 $('#bottom').click(function(){

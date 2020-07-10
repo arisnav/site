@@ -1,0 +1,52 @@
+.essay-content {
+  margin-top: 8%;
+}
+
+.essay-content {
+  width: 80%;
+  line-height: 1.75em;
+  text-indent: 2%;
+  padding-top: 4%;
+}
+.essay-text-main {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 14pt;
+  color: #104B80;
+}
+.essay-text-main::first-letter {
+  font-size: 36pt;
+}
+.essay-heading {
+  padding-bottom: 0.25%;
+  line-height: 1em;
+  font-family: 'Playfair Display', serif;
+  font-size: 32pt;
+  font-weight: normal;
+  color: #3E73A3;
+}
+.essay-heading::after {
+  content: " ";
+  display: block;
+  margin-bottom: 15px;
+  border: 1px solid #3ea5c2;
+}
+
+.works-cited {
+  line-height: 2em;
+  margin-top: 5%;
+}
+.works-cited h1 {
+  font-family: 'Playfair Display';
+  font-size: 14pt;
+  font-weight: normal;
+  color: #104B80;
+}
+.source p {
+  text-indent: 2em;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 14pt;
+  color: #104B80;
+}
+.source p:first-of-type {
+  text-indent: 0;
+}

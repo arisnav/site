@@ -2,7 +2,7 @@
 
   <head>
     <meta charset="UTF-8" />
-    <title>{{ title }}</title>
+    <title>Ari Navetta | {{ title }}</title>
     <meta name="description" content="{{ description }}">
     <link rel="stylesheet" href="essays-style.css">
     <link rel="stylesheet" href="style.css">
@@ -14,46 +14,42 @@
       <ul>
         <a href="index.html"><li>Home</li></a>
         <a href="about.html"><li>About</li></a>
-        <a href="Macbeth.html"><li>Essays</li></a>
-        <li>Photography</li>
-        <li>Illustrator</li>
+        <a href="essays.html"><li>Writing</li></a>
+        <a href="painting.html"><li>Painting</li></a>
+        <a href="photography.html"><li>Photography</li></a>
       </ul>
     </div>
 
-    <div class="centered" id="content-wrap">
-      <div class="content">
+    <div class="up"></div>
+
+      <div style="padding: 6% 0 0 4%; height: 100%;">
+
+        <h1 class="content-heading">Writing</h1>
 
         <div class="essay">
-          <ul>
-            <li>{{ day-one }}</li>
-            <li>{{ month-one }}</li>,
-            <li>{{ year-one }}</li>
-          </ul>
-          <a href="{{ essay-one }}"><h1>{{ title-one }}</h1></a>
-          <p>{{ subtitle-one }}</p>
+          <a href="essay1.pdf"><h1>{{ title-one }}</h1></a>
         </div>
 
         <div class="essay">
-          <ul>
-            <li>{{ day-two }}</li>
-            <li>{{ month-two }}</li>,
-            <li>{{ year-two }}</li>
-          </ul>
-          <a href="{{ essay-two }}"><h1>{{ title-two }}</h1></a>
-          <p>{{ subtitle-two }}</p>
+          <a href="essay2.pdf"><h1>{{ title-two }}</h1></a>
+        </div>
+
+        <div class="essay">
+          <a href="essay3.pdf"><h1>{{ title-three }}</h1></a>
+        </div>
+
+        <div class="essay">
+          <a href="essay4.pdf"><h1>{{ title-four }}</h1></a>
         </div>
 
       </div>
-    </div>
 
-    <footer>
-      <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li id="up-down">top of page</li>
-      </ul>
-    </footer>
+      <footer>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>Copyright @ Ari Navetta 2020</li>
+        </ul>
+      </footer>
 
   </body>
 

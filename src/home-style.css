@@ -39,23 +39,36 @@ body: {
   background-image: url("Background.png");
   background-position-y: -20em;
 }
-#essay {
+#about {
   top: 100%;
 }
-#essay::after {
-  background-color: yellow;
+#about::after {
+  background-image: url("aboutBackground.png");
+  background-position-y: -10em;
+  background-position-x: 2em;
 }
-#photography {
+#writing {
   top: 200%;
 }
-#photography::after {
-  background-color: red;
+#writing::after {
+  background-image: url("writingBackground.png");
+  background-position-y: -37em;
+  background-position-x: -2em;
+  transform: rotate(190deg);
 }
 #painting {
   top: 300%;
 }
 #painting::after {
-  background-color: orange;
+  background-image: url("paintingBackground.png");
+  background-position-y: -10em;
+}
+#photography {
+  top: 400%;
+}
+#photography::after {
+  background-image: url("photoBackground.png");
+  background-position-y: -10em;
 }
 
 
@@ -93,8 +106,4 @@ body: {
   font-family: 'Catamaran', sans-serif;
   font-size: 48pt;
   color: #043E6B;
-}
-
-footer {
-  bottom: -310%;
 }
