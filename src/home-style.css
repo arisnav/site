@@ -52,7 +52,7 @@ body: {
 }
 #writing::after {
   background-image: url("writingBackground.png");
-  background-position-y: -37em;
+  background-position-y: -32em;
   background-position-x: -2em;
   transform: rotate(190deg);
 }
